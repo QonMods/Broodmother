@@ -1,0 +1,51 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+  Bugfixes:
+    - Fixed the outdated recipe.normal reference.
+      Thanks ALGALIAREPT666 for [reporting and testing](https://mods.factorio.com/mod/Broodmother/discussion/6088544664d24def3cd6184a).
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+  Info:
+    - Updated for Factorio v1.1
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+Date: 2020-09-12 18:51
+  Bugfixes:
+    - Moved code to data-updates so that mods that modify spidertron in data-updates (and load before)
+      will actually have the changes applied to the Broodmother and baby spiders also.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 2020-09-11 17:00
+  Changes:
+    - Added optional dependency on bobvehicleequipment upon request by
+      [BaneInUrArse](https://mods.factorio.com/mod/Broodmother/discussion/5f5a9f42096f9ddfc833c451)
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 2020-08-28 09:25
+  Bugfixes:
+    - Fixed a bug that caused baby spiders to not detect active defense other than PLD in their
+      grid. This caused them to self-destruct immediately on spawn or when running out of ammo if
+      their only method of attack was modded PLD.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2020-08-25 17:05
+  Changes:
+    - Made baby spider legs not scale down as much as their body. Slightly thicker legs makes them
+      look more like little tarantulas with hairy legs instead of needle legged things that are hard
+      see when zoomed out.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2020-08-25 09:50
+  Bugfixes:
+    - Removed unecessary log file spam that was accidentally left over.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2020-08-24 16:34
+  Bugfixes:
+    - Baby spiders don't actually take ammo when they aren't allowed now.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2020-08-24 12:48
+  Major Features:
+    - Initial release.
+
